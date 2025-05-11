@@ -19,5 +19,5 @@ dependencies {
     modImplementation "dev.architectury:architectury:$rootProject.architectury_api_version"
 
     modImplementation("io.github.mortuusars.exposure:exposure-${minecraft_version}-common:${exposure_version}")
-    modImplementation("io.github.mortuusars.exposure_polaroid:exposure_polaroid-${minecraft_version}-common:${exposure_polaroid_version}")
+    modCompileOnly("io.github.mortuusars.exposure_polaroid:exposure_polaroid-${minecraft_version}-common:${exposure_polaroid_version}")
 }

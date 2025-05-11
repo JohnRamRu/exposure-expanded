@@ -9,7 +9,7 @@
   ],
   "contact": {
     "homepage": "https://modrinth.com/project/exposure-expanded",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/Sparkwave2/exposure-expanded"
   },
   "license": "MIT",
   "icon": "assets/exposure_expanded/icon.png",
@@ -34,6 +34,6 @@
     "fabric-api": "*"
   },
   "suggests": {
-    "another-mod": "*"
+    "exposure_polaroid": ">=1.0.0"
   }
 }
