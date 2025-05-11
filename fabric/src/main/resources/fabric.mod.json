@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "exposure_expanded",
+  "version": "${version}",
+  "name": "Exposure: Expanded",
+  "description": "Addon for Exposure that adds new lenses, filters and films.",
+  "authors": [
+    "Sparkwave"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/project/exposure-expanded",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "MIT",
+  "icon": "assets/exposure_expanded/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.titanite.sparkwave.exposureexpanded.fabric.ExposureExpandedFabric"
+    ],
+    "client": [
+      "dev.titanite.sparkwave.exposureexpanded.fabric.client.ExposureExpandedFabricClient"
+    ]
+  },
+  "mixins": [
+    "exposure_expanded.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "exposure": ">=1.9.2",
+    "architectury": ">=13.0.8",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
